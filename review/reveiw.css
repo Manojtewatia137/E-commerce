@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-item a {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+
+
+/* team */
+.card-body img{
+    width: 50%;
+    height: 180px;
+}
+
+.card1 img{
+    transition: tranform .5s ease-in-out;
+}
+
+.card1:hover{
+    background-color:red;
+    transform: scale(1.2);
+   
+}
+
+.image12{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.star {
+    color: orange;
+}
+
+
+
+/* footer */
+.footer{
+    background-color: rgb(233, 221, 221);
+
+}
+
+.logo{
+    margin-left:100px;
+    margin-top: 70px;
+    display: inline-block;
+
+}
+
+.link{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.Copyright{
+    text-align: center;
+    margin-top: 50px;
+   border-top:solid white;
+   padding: 10px;
+}
+
+
+
+
+@media (max-width:600px) {
+
+    .card1{
+        margin-left: 20px;
+        margin-top: 40px;
+        
+    }
+    
+}
