@@ -42,7 +42,16 @@ html {
     transform: scale(1.5);
 }
 
+.star{
+    color:orange;
+}
 
+h1{
+
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+
+}
 
 /* prodact */
 

@@ -183,6 +183,11 @@ html {
     cursor: pointer;
 }
 
+.image12{
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+}
+
 /* show_more */
 #show_more {
     background-color: green;
@@ -229,26 +234,13 @@ html {
 
 @media (max-width : 600px) {
 
-   
-.main p {
-    font-size: 1.1rem;
-    text-transform: uppercase;
-}
 
-.main h1 {
-    font-size: 2rem;
-    font-weight: 900;
-
-}
 
 .card{
    margin-top: 20px; 
 }
 
-.product h1 {
-    font-weight: 800;
-    font-size: 2rem;
-}
+
 
 
     
