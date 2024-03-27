@@ -1,4 +1,4 @@
-const form = document.querySelector(".form1");
+const form = document.querySelector (".form1");
 const search = document.getElementById("search-button");
 const input_data = document.querySelector("input")
 const search_images = document.querySelector(".head")
@@ -37,9 +37,13 @@ function generate_cards(head){
         image_wrapper.classList.add = "head"
         const image = document.createElement("img")
         image.src = index.urls.small;
+        // image.style.display = "flex"
         const link = document.createElement("a")
         link.href = index.links.html;
         link.target = "blank";
+        link.style.textDecoration = "none"
+        link.style.color = "black"
+        link.style.display = "flex"
         link.innerText = index.alt_description ;
         image_wrapper.append(image)
         image_wrapper.append(link)
@@ -55,7 +59,7 @@ function generate_cards(head){
 }
 
   form.addEventListener("submit",(event)=>{
-    console.log("hello")
+    // console.log("hello")
     event.preventDefault();
     page = 1;
     search_image();

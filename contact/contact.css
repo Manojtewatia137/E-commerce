@@ -123,9 +123,18 @@ input[type=text], select, textarea {
 
 
 @media (max-width:600px) {
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
 
     .btn12{
         width: 100%;
     }
+
+
     
 }

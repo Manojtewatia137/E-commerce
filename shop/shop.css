@@ -130,3 +130,13 @@ h1{
    padding: 10px;
 }
 
+
+
+@media (max-width : 600px) {
+    *{
+        margin:0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+}

@@ -1,12 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 body {
     overflow-x: hidden !important;
-
 
 }
 
@@ -233,13 +233,21 @@ html {
 
 
 @media (max-width : 600px) {
-
+*{
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 
 .card{
    margin-top: 20px; 
 }
 
+body {
+    overflow-x: hidden !important;
+
+}
 
 
 
